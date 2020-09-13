@@ -60,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="20%"
+        android:text="0%"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
@@ -107,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewPercentualGorjeta" />
 
     <TextView
-        android:id="@+id/textViewValorTotalComGorjeta"
+        android:id="@+id/textViewValorTotal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
